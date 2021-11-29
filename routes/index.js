@@ -1,9 +1,9 @@
 const router = require("express").Router();
 
-const productRoutes = require("./products/index");
-const authenticationRoutes = require("./authentication/index");
+const customerRoutes = require("./customers/index");
+// const authenticationRoutes = require("./authentication/index");
 
-router.use("", productRoutes);
-router.use("", authenticationRoutes);
+router.use("", customerRoutes);
+// router.use("", authenticationRoutes);
 
 module.exports = router;
